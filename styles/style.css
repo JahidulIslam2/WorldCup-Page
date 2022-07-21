@@ -135,7 +135,7 @@ span{
 }
 /*-------footer style----*/
 .footer-style{
-    height: 300px;
+    height: 400px;
     width:100%;
     background-color: rgb(27, 27, 44);
     margin-top: 100px;
@@ -157,7 +157,7 @@ hr{
 
 .media-button{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
 .media-button span a{
@@ -230,10 +230,11 @@ hr{
     }
 
     .footer-style{
-        height: 450px;
+        height: 470px;
         width:100%;
         background-color: rgb(27, 27, 44);
         margin-top: 100px;
+        
     }
 
     .footer-menu{
@@ -309,7 +310,7 @@ hr{
         /*----footer---------- */
     
     .footer-style{
-            height: 450px;
+            height: 470px;
             width:100%;
             background-color: rgb(27, 27, 44);
             margin-top: 100px;
