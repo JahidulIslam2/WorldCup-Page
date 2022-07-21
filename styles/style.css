@@ -154,6 +154,16 @@ hr{
     justify-content: center;
     justify-content: space-around;
 }
+
+.media-button{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.media-button span a{
+    text-decoration: none;
+    color:gainsboro;
+}
 /*------responsive mobile Device---
 -----------Using Media Query------------*/
 @media only screen and (max-width:668px) {
@@ -163,19 +173,19 @@ hr{
     }
     /*----heading */
     .banner{
-    height: 678px;
-    width:100%;
-    background-color:darkslategray;
-    display:flex;
-    flex-direction: column;
-    border-radius: 5px;
+        height: 678px;
+        width:100%;
+        background-color:darkslategray;
+        display:flex;
+        flex-direction: column;
+        border-radius: 5px;
     }
     /*----heading end-----*/
     /*----------button frame------------ */
     .container{
-    grid-template-columns: repeat(1,1fr);
-    width:100%;
-    padding:5px;
+        grid-template-columns: repeat(1,1fr);
+        width:100%;
+        padding:5px;
     }
     .button-box {
         height: 300px;
@@ -211,7 +221,7 @@ hr{
         margin-left:100px;
        align-items: center;
      }
-     .box1{
+    .box1{
         height: 300px;
         width: 220px;
         padding: 10px 10px 0px 25px;
@@ -231,6 +241,15 @@ hr{
         justify-content: center;
         justify-content: space-around;
     }
+    .media-button{
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .media-button span a{
+        text-decoration: none;
+        color:gainsboro;
+    }
 }
 
 /* -------respponsive for tablet--
@@ -246,21 +265,21 @@ hr{
         width:100%;
         padding:5px;
         }
-        .button-box {
+    .button-box {
             height: 200px;
             width:780px;
             background-color: rgb(240, 240, 240);
             margin-top: 15px;
             
         }
-        .btn-frame{
+    .btn-frame{
             display:flex;
             grid-column-gap: 30px;
             width: 400px;
             padding-right: 500px;
         }
     
-        #btn-style, .bg-btn{
+    #btn-style, .bg-btn{
             text-decoration: none;
             height: 35px;
             width: 150px;
@@ -272,7 +291,7 @@ hr{
             
         }
         /*========button Frame end========*/
-        .box{
+    .box{
             display:grid;
             grid-template-columns: repeat(2,1fr);
             gap: 20px;
@@ -280,26 +299,37 @@ hr{
             margin-left:100px;
            align-items: center;
          }
-         .box1{
+    .box1{
             height: 300px;
             width: 220px;
             padding: 10px 10px 0px 25px;
             background-color: rgb(233, 240, 240);
             border-radius: 3px;
-        }
+             }
         /*----footer---------- */
     
-        .footer-style{
+    .footer-style{
             height: 450px;
             width:100%;
             background-color: rgb(27, 27, 44);
             margin-top: 100px;
         }
     
-        .footer-menu{
+    .footer-menu{
             display:grid;
             justify-content: center;
             justify-content: space-around;
         }
-    }
+    .media-button{
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+    .media-button span a{
+            text-decoration: none;
+            color:gainsboro;
+        }
+
 }
+    
+
